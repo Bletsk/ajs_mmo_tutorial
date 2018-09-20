@@ -15,7 +15,7 @@ var CharacterObj = function(game, x, y, isMainPlayer) {
 CharacterObj.prototype.configure = function(game, isMainPlayer){
     this.game = game;
     this.isMainPlayer = isMainPlayer;
-    this.moveDuration = 500;
+    this.moveDuration = 400;
     this.info = {};
 
     this.currentTweens = [];

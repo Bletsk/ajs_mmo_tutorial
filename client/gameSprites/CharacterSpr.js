@@ -26,7 +26,7 @@ CharacterSpr.prototype.callOnCollideWithCollectableSprite = function(callback){
 
 
 CharacterSpr.prototype.setupAnimations = function() {
-    this.anchor.setTo(0.5, 0.5);
+    this.anchor.setTo(0.5, 0.75);
 
     this.animations.add('walk_down', [
         "character/walk/down/0.png",
